@@ -1,0 +1,5 @@
+Joshua;abcd;10;SUPREME
+Akshat;784;1000;SUPREME
+Kav;1234;10;Premium
+Alex;abcdefg;0;GODTIER
+Shashwat;password;10;GODTIER

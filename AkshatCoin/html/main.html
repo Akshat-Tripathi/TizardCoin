@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<title>{{.Name}}</title>
+<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<body>
+    <script src="static/js/main.js" defer=true></script>
+    <div>
+        <img src="/static/imgs/COIN.jpg" height="100" width="100"/>
+        <h1 id="coins">{{.Coins}}</h1>
+        <img src="/static/imgs/COIN.jpg" height="100" width="100"/>
+    </div>
+    <div><input type="button" value="MINE" id="mine" onclick="mine()"></div>
+    <div id="hash"></div>
+    <div>
+        <input type="button" value="SEND">
+        <input type="number" placeholder="Amount" id="amount">
+        <p>TO</p>
+        <input type="text" placeholder="Person" id="person">
+    </div>
+</body>
